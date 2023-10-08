@@ -375,7 +375,7 @@ section{
 }
 
 article{
-  display: flex;
+  display: block;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
@@ -401,20 +401,23 @@ article
 
 .project-img{
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 300px;
+  height: 300px;
+  display: block;
 }
 
 
 .project-title{
   margin: 1rem;
   color: black;
+  display: block;
 
 }
 
 .project-btn{
   color: black;
   border-color: rgb(163, 163, 163);
+  
 }
 
 /* Contact */
