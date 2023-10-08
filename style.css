@@ -420,6 +420,10 @@ article
 /* Contact */
 
 #contact{
+  position: relative;
+}
+
+#contact{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -437,10 +441,34 @@ article
   padding: 0.5rem;
 }
 
-.contain-info-container{
+.contact-info-container{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+}
+
+.contact-info-container{
+ font-size: large;
+}
+
+.contact-icon{
+  cursor: default;
+}
+.email-icon{
+  height: 3rem;
+}
+
+/* Footer */
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+
+footer p{
+  text-align: center;
+
 }
